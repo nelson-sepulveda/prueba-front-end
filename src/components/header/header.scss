@@ -1,0 +1,49 @@
+
+.header__inicial{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  div{
+    padding: 18px;
+    margin-left: 12px;
+  }
+}
+
+.header__ImgUser{
+  img{
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+.header__Registro{
+  cursor: pointer;
+}
+
+.item__FormRegister{
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 25px;
+  label{
+    min-width: 150px;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: initial;
+  }
+}
+
+
+.modal-footer{
+  justify-content: center;
+  button{
+    min-width: 120px;
+  }
+}
+
+.modal-dialog {
+  width: 420px;
+}
+
+.button-success-form-register{
+  
+}
